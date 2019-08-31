@@ -1,6 +1,0 @@
----
-  - name: Copy systemwide crontab
-    copy:
-      src: crontab_opsmaster
-      dest: /etc/cron.d/openshift
-      mode: 0600

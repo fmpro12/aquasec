@@ -1,3 +1,0 @@
----
-- name: reload nginx configuration
-  action: service name=nginx state=reloaded

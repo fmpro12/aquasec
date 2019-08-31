@@ -1,5 +1,0 @@
----
-project: projectname
-ansible_user: root
-stand: preprod
-tag_name: release
