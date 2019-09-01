@@ -15,6 +15,7 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('docker/toolbox') {
+                    sh 'chmod 666 /var/run/docker.sock'
                 	sh 'docker build . '
                 }
             }
